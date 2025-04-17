@@ -1,0 +1,8 @@
+
+from pydantic import BaseModel
+
+class Message(BaseModel):
+    text: str
+
+class ChatResponse(BaseModel):
+    response: str
